@@ -4,11 +4,10 @@
 
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    String text = "hello world!";
+    String upperCase = text.toUpperCase();
+    System.out.println(upperCase);
+    
   }
-
-  // @Test
-  // void addition() {
-  //     assertEquals(2, 1 + 1);
-  // }
 }
+
